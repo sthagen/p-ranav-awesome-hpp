@@ -6,11 +6,9 @@
   <b>A curated list of awesome header-only C++ libraries</b>
 </p>
 
-
 <p align="center">
-  <a href="https://travis-ci.com/p-ranav/awesome-hpp">
-    <img src="https://travis-ci.com/p-ranav/awesome-hpp.svg?branch=master" alt="ci status"/>
-  </a>
+  <a href="https://github.com/sindresorhus/awesome">
+    <img src="https://github.com/sindresorhus/awesome/blob/main/media/badge.svg">
 </p>
 
 ## Table of Contents
@@ -29,12 +27,15 @@
 - [Data Querying](#data-querying)
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
 - [Debugging](#debugging)
+- [Deep Learning](#deep-learning)
 - [Event Handling Mechanisms](#event-handling-mechanisms)
 - [File System](#file-system)
 - [Functional Programming](#functional-programming)
 - [Geometry, Graphics Processing, and Game Development](#geometry-graphics-processing-and-game-development)
 - [GPU](#gpu)
+- [Graph](#graph)
 - [GUI](#gui)
+- [High-performance Computing](#high-performance-computing)
 - [HTTP and the Web](#http-and-the-web)
 - [Image Processing](#image-processing)
 - [Language Bindings](#language-bindings)
@@ -113,6 +114,7 @@
 | [taskflow](https://github.com/taskflow/taskflow) | [![GitHub stars](https://img.shields.io/github/stars/taskflow/taskflow?style=social)](https://github.com/taskflow/taskflow/stargazers/) | Modern C++ Parallel Task Programming. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [task_system](https://github.com/p-ranav/task_system) | [![GitHub stars](https://img.shields.io/github/stars/p-ranav/task_system?style=social)](https://github.com/p-ranav/task_system/stargazers/) | Better Code: Concurrency - Sean Parent. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [transwarp](https://github.com/bloomen/transwarp) | [![GitHub stars](https://img.shields.io/github/stars/bloomen/transwarp?style=social)](https://github.com/bloomen/transwarp/stargazers/) | A header-only C++ library for task concurrency. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+| [taskpool](https://github.com/fawdlstty/taskpool) | [![GitHub stars](https://img.shields.io/github/stars/fawdlstty/taskpool?style=social)](https://github.com/fawdlstty/taskpool/stargazers/) | Modern C++ taskpool. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 
 ## Cryptography and Security
 
@@ -120,7 +122,7 @@
 |--- | ---| ---|--- |
 | [cppcodec](https://github.com/tplgy/cppcodec) | [![GitHub stars](https://img.shields.io/github/stars/tplgy/cppcodec?style=social)](https://github.com/tplgy/cppcodec/stargazers/) | Encode/decode base64, base64url, base32, etc. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [digestpp](https://github.com/kerukuro/digestpp) | [![GitHub stars](https://img.shields.io/github/stars/kerukuro/digestpp?style=social)](https://github.com/kerukuro/digestpp/stargazers/) &nbsp; &nbsp; | C++11 header-only message digest library. | [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) |
-| [PicoSHA2](https://github.com/okdshin/PicoSHA2) | [![GitHub stars](https://img.shields.io/github/stars/okdshin/PicoSHA2?style=social)](https://github.com/okdshin/PicoSHA2/stargazers/) | Feader-file-only, SHA256 hash generator in C++. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+| [PicoSHA2](https://github.com/okdshin/PicoSHA2) | [![GitHub stars](https://img.shields.io/github/stars/okdshin/PicoSHA2?style=social)](https://github.com/okdshin/PicoSHA2/stargazers/) | Header-file-only, SHA256 hash generator in C++. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 
 ## Databases
 
@@ -211,6 +213,12 @@
 |--- | ---| ---|--- |
 | [backward-cpp](https://github.com/bombela/backward-cpp) | [![GitHub stars](https://img.shields.io/github/stars/bombela/backward-cpp?style=social)](https://github.com/bombela/backward-cpp/stargazers/) | A beautiful stack trace pretty printer for C++. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 
+## Deep Learning
+
+| Library  | Stars |  Description | License  |
+|--- | ---| ---|--- |
+| [ceras](https://github.com/fengwang/ceras) | [![GitHub stars](https://img.shields.io/github/stars/fengwang/ceras?style=social)](https://github.com/fengwang/ceras/stargazers/) | A deep learning engine in C++20. | [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) |
+
 ## Event Handling Mechanisms
 
 | Library  | Stars |  Description | License  |
@@ -272,6 +280,12 @@
 | [thrust](https://github.com/thrust/thrust) | [![GitHub stars](https://img.shields.io/github/stars/thrust/thrust?style=social)](https://github.com/thrust/thrust/stargazers/) | Parallel programming library. | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | [vuda](https://github.com/jgbit/vuda) | [![GitHub stars](https://img.shields.io/github/stars/jgbit/vuda?style=social)](https://github.com/jgbit/vuda/stargazers/) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Vulkan-based library that provides a CUDA Runtime API interface for writing GPU-accelerated applications. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 
+## Graph
+
+| Library  | Stars |  Description | License  |
+|--- | ---| ---|--- |
+| [CXXGraph](https://github.com/ZigRazor/CXXGraph) | [![GitHub stars](https://img.shields.io/github/stars/ZigRazor/CXXGraph?style=social)](https://github.com/ZigRazor/CXXGraph/stargazers/) &nbsp; &nbsp; &nbsp; | Graph Representation and Algorithms Library >= C++17 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | [![License](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](https://opensource.org/licenses/AGPL-3.0) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+
 ## GUI
 
 | Library  | Stars |  Description | License  |
@@ -279,6 +293,12 @@
 | [GuiLite](https://github.com/idea4good/GuiLite) | [![GitHub stars](https://img.shields.io/github/stars/idea4good/GuiLite?style=social)](https://github.com/idea4good/GuiLite/stargazers/) | The smallest header-only GUI library(5 KLOC) for all platforms. | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) |
 | [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) | [![GitHub stars](https://img.shields.io/github/stars/Immediate-Mode-UI/Nuklear?style=social)](https://github.com/Immediate-Mode-UI/Nuklear/stargazers/) | Immediate mode cross-platform GUI library. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) |
 | [WinLamb](https://github.com/rodrigocfd/winlamb) | [![GitHub stars](https://img.shields.io/github/stars/rodrigocfd/winlamb?style=social)](https://github.com/rodrigocfd/winlamb/stargazers/) | C++11 native Win32 GUI library. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+
+## High-performance Computing
+
+| Library  | Stars |  Description | License  |
+|--- | ---| ---|--- |
+| [MPL](https://github.com/rabauke/mpl) | [![GitHub stars](https://img.shields.io/github/stars/rabauke/mpl?style=social)](https://github.com/rabauke/mpl/) | A C++11 message passing library based on the [Message Passing Interface](https://www.mpi-forum.org/) standard. | [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) |
 
 ## HTTP and the Web
 
@@ -288,12 +308,14 @@
 | [cpp-httplib](https://github.com/yhirose/cpp-httplib) | [![GitHub stars](https://img.shields.io/github/stars/yhirose/cpp-httplib?style=social)](https://github.com/yhirose/cpp-httplib/stargazers/) | A C++11 Cross platform HTTP/HTTPS library. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [jwt-cpp](https://github.com/Thalhammer/jwt-cpp) | [![GitHub stars](https://img.shields.io/github/stars/Thalhammer/jwt-cpp?style=social)](https://github.com/Thalhammer/jwt-cpp/stargazers/) | Create and validate JSON web tokens. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [RESTinio](https://github.com/Stiffstream/restinio) | [![GitHub stars](https://img.shields.io/github/stars/Stiffstream/restinio?style=social)](https://github.com/Stiffstream/restinio/stargazers/) | Asynchronous HTTP/WebSocket server C++14 library | [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) |
+| [cuehttp](https://github.com/xcyl/cuehttp) | [![GitHub stars](https://img.shields.io/github/stars/xcyl/cuehttp?style=social)](https://github.com/xcyl/cuehttp/stargazers/) | Modern c++ middleware framework for http(http/https)/websocket(ws/wss). | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) |
 
 ## Image Processing
 
 | Library  | Stars |  Description | License  |
 |--- | ---| ---|--- |
 | [BitmapPlusPlus](https://github.com/BaderEddineOuaich/BitmapPlusPlus) | [![GitHub stars](https://img.shields.io/github/stars/BaderEddineOuaich/BitmapPlusPlus?style=social)](https://github.com/BaderEddineOuaich/BitmapPlusPlus/stargazers/) | Simple and Fast header only Bitmap (BMP) library. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+| [CImg](https://github.com/dtschump/CImg) | [![GitHub stars](https://img.shields.io/github/stars/dtschump/CImg?style=social)](https://github.com/dtschump/CImg/stargazers/) | Cool Image, one file: full featured image processing. |  [![License: MIT](https://img.shields.io/badge/License-CeCILL-blue.svg)](http://cecill.info/licences/Licence_CeCILL_V2-en.html) |
 | [color-util](https://github.com/yuki-koyama/color-util) | [![GitHub stars](https://img.shields.io/github/stars/yuki-koyama/color-util?style=social)](https://github.com/yuki-koyama/color-util/stargazers/) | Colors, Color space converters for RGB, HSL, XYZ, Lab, etc. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [color](https://github.com/dmilos/color) | [![GitHub stars](https://img.shields.io/github/stars/dmilos/color?style=social)](https://github.com/dmilos/color/stargazers/) | Color manipulation/conversion for different types and formats. | [![License: MIT](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) |
 | [nanopm](https://github.com/unclearness/nanopm) | [![GitHub stars](https://img.shields.io/github/stars/unclearness/nanopm?style=social)](https://github.com/unclearness/nanopm/stargazers/) | NanoPM, single header only PatchMatch. | |
@@ -329,6 +351,7 @@
 | [libmorton](https://github.com/Forceflow/libmorton) | [![GitHub stars](https://img.shields.io/github/stars/Forceflow/libmorton?style=social)](https://github.com/Forceflow/libmorton/stargazers/) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Methods to efficiently encode/decode Morton codes in/from 2D/3D coordinates. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [linalg](https://github.com/sgorsten/linalg) | [![GitHub stars](https://img.shields.io/github/stars/sgorsten/linalg?style=social)](https://github.com/sgorsten/linalg/stargazers/) | Short vector math library for C++. | [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) |
 | [matplotlib-cpp](https://github.com/lava/matplotlib-cpp) | [![GitHub stars](https://img.shields.io/github/stars/lava/matplotlib-cpp?style=social)](https://github.com/lava/matplotlib-cpp/stargazers/) | C++ plotting library built on the popular matplotlib. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+| [matrix](https://github.com/fengwang/matrix) | [![GitHub stars](https://img.shields.io/github/stars/fengwang/matrix?style=social)](https://github.com/fengwang/matrix/stargazers/) | A 2D matrix lib in C++20. | [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) |
 | [NumCpp](https://github.com/dpilger26/NumCpp) | [![GitHub stars](https://img.shields.io/github/stars/dpilger26/NumCpp?style=social)](https://github.com/dpilger26/NumCpp/stargazers/) | C++ implementation of the Python Numpy library. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [random](https://github.com/effolkronium/random) | [![GitHub stars](https://img.shields.io/github/stars/effolkronium/random?style=social)](https://github.com/effolkronium/random/stargazers/) | Random for modern C++ with convenient API. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [spectra](https://github.com/yixuan/spectra) | [![GitHub stars](https://img.shields.io/github/stars/yixuan/spectra?style=social)](https://github.com/yixuan/spectra/stargazers/) | A header-only C++ library for large scale eigenvalue problems. | [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) |
@@ -450,6 +473,8 @@
 | [hfsm2](https://github.com/andrew-gresyk/HFSM2) | [![GitHub stars](https://img.shields.io/github/stars/andrew-gresyk/HFSM2?style=social)](https://github.com/andrew-gresyk/HFSM2/stargazers/) | High-performance hierarchical finite state machine framework. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [hsm](https://github.com/erikzenker/hsm) | [![GitHub stars](https://img.shields.io/github/stars/erikzenker/hsm?style=social)](https://github.com/erikzenker/hsm/stargazers/) | Finite state machine library based on the boost hana. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [tinyfsm](https://github.com/digint/tinyfsm) | [![GitHub stars](https://img.shields.io/github/stars/digint/tinyfsm?style=social)](https://github.com/digint/tinyfsm/stargazers/) | A simple C++ finite state machine library. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+| [SMLite](https://github.com/fawdlstty/SMLite) | [![GitHub stars](https://img.shields.io/github/stars/fawdlstty/SMLite?style=social)](https://github.com/fawdlstty/SMLite/stargazers/) | State machine library for C, C++, C#, Java, JavaScript, Python, `VB.Net`. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+| [cuestate](https://github.com/xcyl/cuestate) | [![GitHub stars](https://img.shields.io/github/stars/xcyl/cuestate?style=social)](https://github.com/xcyl/cuestate/stargazers/) | C++ template metaprogramming FSM. | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) |
 
 ## Statistics
 
