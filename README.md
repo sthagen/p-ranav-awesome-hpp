@@ -39,6 +39,7 @@
 - [HTTP and the Web](#http-and-the-web)
 - [Image Processing](#image-processing)
 - [Language Bindings](#language-bindings)
+- [Language Development](#language-development)
 - [Logging](#logging)
 - [Mathematics](#mathematics)
 - [Memory Management](#memory-management)
@@ -337,6 +338,12 @@
 | [Sol](https://github.com/ThePhD/sol2) | [![GitHub stars](https://img.shields.io/github/stars/ThePhD/sol2?style=social)](https://github.com/ThePhD/sol2) | Sol3 (sol2 v3.0) - a C++ <-> Lua API wrapper with advanced features and top notch performance. | [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [v8pp](https://github.com/pmed/v8pp) | [![GitHub stars](https://img.shields.io/github/stars/pmed/v8pp?style=social)](https://github.com/pmed/v8pp/stargazers/) | Bind C++ functions and classes into V8 JavaScript engine. | [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) |
 
+## Language Development
+
+ | Library  | Stars |  Description | License  |
+ |--- | ---| ---|--- |
+ | [Command Interpreter](https://github.com/empirical-soft/command-interpreter) | [![GitHub stars](https://img.shields.io/github/stars/empirical-soft/command-interpreter?style=social)](https://github.com/empirical-soft/command-interpreter/stargazers/) | Add a command interpreter (eg., REPL) to any C++ program. | [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) |
+
 ## Logging
 
 | Library  | Stars |  Description | License  |
@@ -461,6 +468,7 @@
 | [itlib](https://github.com/iboB/itlib) | [![GitHub stars](https://img.shields.io/github/stars/iboB/itlib?style=social)](https://github.com/iboB/itlib/stargazers/) | Standard-library-like containers and extensions. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [leaf](https://github.com/boostorg/leaf) | [![GitHub stars](https://img.shields.io/github/stars/boostorg/leaf?style=social)](https://github.com/boostorg/leaf/stargazers/) | Lightweight Error Augmentation Framework. | [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) |
 | [libunifex](https://github.com/facebookexperimental/libunifex) | [![GitHub stars](https://img.shields.io/github/stars/facebookexperimental/libunifex?style=social)](https://github.com/facebookexperimental/libunifex/stargazers/) | Unified Executors | [![License](https://img.shields.io/badge/license-Facebook-blue.svg)](https://github.com/facebookexperimental/libunifex/blob/master/LICENSE.txt) |
+| [match(it)](https://github.com/BowenFu/matchit.cpp) | [![GitHub stars](https://img.shields.io/github/stars/BowenFu/matchit.cpp?style=social)](https://github.com/BowenFu/matchit.cpp/) | A lightweight pattern-matching library for C++17 with macro-free APIs. | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) |
 | [mp11](https://github.com/boostorg/mp11) | [![GitHub stars](https://img.shields.io/github/stars/boostorg/mp11?style=social)](https://github.com/boostorg/mp11/stargazers/) | C++11 metaprogramming library. | [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) |
 | [NanoRange](https://github.com/tcbrindle/NanoRange) | [![GitHub stars](https://img.shields.io/github/stars/tcbrindle/NanoRange?style=social)](https://github.com/tcbrindle/NanoRange/stargazers/) | Range-based goodness for C++17. | [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) |
 | [numeric_ranges](https://github.com/tcbrindle/numeric_ranges) | [![GitHub stars](https://img.shields.io/github/stars/tcbrindle/numeric_ranges?style=social)](https://github.com/tcbrindle/numeric_ranges/stargazers/) | Numeric algorithms for C++20 Ranges. | [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) |
