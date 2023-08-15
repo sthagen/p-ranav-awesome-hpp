@@ -112,7 +112,6 @@
 | Library  | Stars |  Description | License  |
 |--- | ---| ---|--- |
 | [cs_libguarded](https://github.com/copperspice/cs_libguarded) | [![GitHub stars](https://img.shields.io/github/stars/copperspice/cs_libguarded?style=social)](https://github.com/copperspice/cs_libguarded/stargazers/) | Multithreaded programming. | [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) |
-| [mvThreadPool](https://github.com/hoffstadt/mvThreadPool) | [![GitHub stars](https://img.shields.io/github/stars/hoffstadt/mvThreadPool?style=social)](https://github.com/hoffstadt/mvThreadPool/stargazers/) | Simple header-only C++ thread pool library. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [taskflow](https://github.com/taskflow/taskflow) | [![GitHub stars](https://img.shields.io/github/stars/taskflow/taskflow?style=social)](https://github.com/taskflow/taskflow/stargazers/) | Modern C++ Parallel Task Programming. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [task_system](https://github.com/p-ranav/task_system) | [![GitHub stars](https://img.shields.io/github/stars/p-ranav/task_system?style=social)](https://github.com/p-ranav/task_system/stargazers/) | Better Code: Concurrency - Sean Parent. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
 | [transwarp](https://github.com/bloomen/transwarp) | [![GitHub stars](https://img.shields.io/github/stars/bloomen/transwarp?style=social)](https://github.com/bloomen/transwarp/stargazers/) | A header-only C++ library for task concurrency. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
@@ -296,6 +295,7 @@
 | Library  | Stars |  Description | License  |
 |--- | ---| ---|--- |
 | [CXXGraph](https://github.com/ZigRazor/CXXGraph) | [![GitHub stars](https://img.shields.io/github/stars/ZigRazor/CXXGraph?style=social)](https://github.com/ZigRazor/CXXGraph/stargazers/) &nbsp; &nbsp; &nbsp; | Graph Representation and Algorithms Library >= C++17 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | [![License](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](https://opensource.org/licenses/AGPL-3.0) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| [Graaf](https://github.com/bobluppes/graaf) | [![GitHub stars](https://img.shields.io/github/stars/bobluppes/graaf?style=social)](https://github.com/bobluppes/graaf/stargazers/) | A general-purpose lightweight C++20 graph library. | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/) |
 
 ## GUI
 
